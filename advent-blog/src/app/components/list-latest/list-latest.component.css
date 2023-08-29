@@ -1,0 +1,24 @@
+.article-list {
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	justify-items: center;
+	text-align: center;
+	margin: 0 7rem;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+button {
+	background-color: #45442c;
+	font-family: 'Rufina',serif;
+	font-size: 22px;
+	cursor: pointer;
+	padding: 10px 3rem;
+	color: #d7d7cf;
+	border-radius: 25px;
+}

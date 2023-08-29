@@ -10,6 +10,7 @@ import { ListLatestComponent } from './components/list-latest/list-latest.compon
 import { BlockArticleComponent } from './components/block-article/block-article.component';
 import { PersonalCurationComponent } from './components/personal-curation/personal-curation.component';
 import { FooterBarComponent } from './components/footer-bar/footer-bar.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterBarComponent } from './components/footer-bar/footer-bar.component
     ListLatestComponent,
     BlockArticleComponent,
     PersonalCurationComponent,
-    FooterBarComponent
+    FooterBarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

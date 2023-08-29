@@ -1,0 +1,24 @@
+.container{
+	list-style: none;
+	display: grid;
+	grid-template-columns: 5fr 1fr 1fr;
+	margin: 3rem 7rem;
+	align-items: center;
+	justify-items: center;
+}
+
+.title{
+	font-family: 'Rufina', serif;
+	font-size: 32px;
+	font-weight: bolder;
+	letter-spacing: 5px;
+	justify-self: normal;
+}
+
+.option a{
+	font-family: 'Caudex', serif;
+	font-size: 24px;
+	font-weight: bolder;
+	color: black;
+	text-decoration: none;
+}
