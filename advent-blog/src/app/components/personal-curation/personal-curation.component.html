@@ -1,11 +1,11 @@
 <ol class="container">
 	<li class="for-you">FIND<br>SOMETHING<br>FOR YOU</li>
 	<li class="content"><div class="image">
-		<img src="https://images.pexels.com/photos/3020210/pexels-photo-3020210.jpeg" alt="">
-		<div class="tag">history</div>
+		<img src="{{articleImage}}" alt="" [routerLink]="['content', Id]">
+		<div class="tag">{{articleTags[0]}}</div>
 		<div class="selected">curated for you</div>
-		<p>Donec erat metus, pretium sit amet nil vitae, hendrerit efficitur felis. Vivamus vel dapibus arcu. Ut a nisi dolor. Donec mauris turpis, fringilla a luctus id, feugiat et quam. Vivamus at vehicula neque. Vestibulum vitae accumsan risus. Aenean volutpat maximus nibh, at feugiat erat aliquet vel. Maecenas ornare varius facilisis.</p>
+		<p [routerLink]="['content', Id]">{{articleDescription}}</p>
 	</div></li>
 	<li></li>
-	<li class="more"><button>read more</button></li>
+	<li class="more"><button [routerLink]="['content', Id]">read more</button></li>
 </ol>

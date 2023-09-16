@@ -8,9 +8,9 @@
 	flex-direction: column;
 	justify-content: flex-end;
 	height: 600px;
-	background-image: url(https://images.pexels.com/photos/18029411/pexels-photo-18029411/free-photo-of-blossoms-on-spring-trees-around-alley-in-town.jpeg);
 	background-size: cover;
 	background-position: 100% 70%;
+	cursor: pointer;
 }
 
 h1 {

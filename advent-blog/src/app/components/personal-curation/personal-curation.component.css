@@ -18,6 +18,7 @@
 	padding-left: 3rem;
 	font-size: 32px;
 	border-left: #000 solid 2px;
+	cursor: pointer;
 }
 
 p {

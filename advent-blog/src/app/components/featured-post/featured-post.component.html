@@ -1,5 +1,5 @@
-<div class="container-featured">
-	<h1>IS IT SPRING NOW?</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<div class="container-featured" style="background-image: url({{articleImage}});" [routerLink]="['content', Id]">
+	<h1>{{articleTitle.toUpperCase()}}</h1>
+	<p>{{articleBrief}}</p>
 	<button>read more</button>
 </div>

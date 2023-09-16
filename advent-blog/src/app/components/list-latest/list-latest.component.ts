@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./list-latest.component.css']
 })
 export class ListLatestComponent {
-
 }

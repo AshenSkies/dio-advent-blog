@@ -11,6 +11,7 @@ import { BlockArticleComponent } from './components/block-article/block-article.
 import { PersonalCurationComponent } from './components/personal-curation/personal-curation.component';
 import { FooterBarComponent } from './components/footer-bar/footer-bar.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeComponent } from './pages/home/home.component';
     BlockArticleComponent,
     PersonalCurationComponent,
     FooterBarComponent,
-    HomeComponent
+    HomeComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,

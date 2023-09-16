@@ -1,0 +1,23 @@
+<app-nav-bar></app-nav-bar>
+<div class="container">
+	<ol class="tags"></ol>
+	<div class="date">
+		<h2>{{articleDate}}</h2>
+	</div>
+	<div class="title">
+		<h1>{{articleTitle}}</h1>
+	</div>
+	<div class="cover">
+		<img src="{{articleImage}}" alt="">
+	</div>
+	<div class="description">
+		<p>{{articleContent}}</p>
+	</div>
+	<div class="author">
+		<span>author: {{articleAuthor}}</span>
+	</div>
+</div>
+<hr>
+<app-list-latest></app-list-latest>
+<app-personal-curation></app-personal-curation>
+<app-footer-bar></app-footer-bar>
